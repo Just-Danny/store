@@ -5,10 +5,16 @@
     <script src="Java/store.js"></script>
 </head>
 <body>
-<h1>GAME STORE</h1>
+<h1>Pokémon Store</h1>
 <br>
 <label for="search"></label>
-<input name="search" id="search" type="search">
-<button onclick="search()">Enter</button>
+<input name="search" id="search" type="search" placeholder="Type Plush, Figure, or Hoodie">
+<button onclick="bar()">Enter</button>
+<br>
+<h2><button onclick="plush()">Plushes</button></h2>
+<h2><button onclick="figure()">Figures</button></h2>
+<h2><button onclick="hood()">Hoodies</button></h2>
+<br>
+<p id="result"></p>
 </body>
 </html>
