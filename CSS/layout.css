@@ -1,0 +1,8 @@
+.grid-container{
+    grid-template-rows: 20% 20% 10% 50%;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 5%;
+    display: grid;
+    background-color: orange;
+}
+

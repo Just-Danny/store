@@ -7,8 +7,12 @@
 <body>
 <h1>Pokémon Store</h1>
 <br>
-<label for="search"></label>
-<input name="search" id="search" type="search" placeholder="Type Plush, Figure, or Hoodie">
+<input oninput="updateResult(this.value)" name="search" type="search" placeholder="Type Plush, Figure, or Hoodie"/>
+<ul id="result-list">
+    <li>sample</li>
+    <li>sample</li>
+    <li>sample</li>
+</ul>
 <button onclick="bar()">Enter</button>
 <br>
 <h2><button onclick="plushies()">Plushes</button></h2>
