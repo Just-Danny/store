@@ -2,26 +2,41 @@
 <html>
 <head>
     <title>Store</title>
+    <link rel="stylesheet" type="text/css" href="CSS/layout.css">
     <script src="Java/store.js"></script>
 </head>
-<body>
-<h1>Pokémon Store</h1>
+<body class="grid-container">
+<h1 class="item-a">Pokémon Store</h1>
 <br>
-<input oninput="updateResult(this.value)" name="search" type="search" placeholder="Type Plush, Figure, or Hoodie"/>
+<div class="item-b">
+<input oninput="updateResult(this.value)" name="search" type="search" placeholder="Extra Credit below"/>
+<button onclick="bar()">Enter</button>
 <ul id="result-list">
-    <li>sample</li>
+    <li>Picutures wouldn't show up when a button was pressed if I tried to add any text with the pictures</li>
     <li>sample</li>
     <li>sample</li>
 </ul>
-<button onclick="bar()">Enter</button>
+</div>
+
 <br>
+<div class="item-c">
 <h2><button onclick="plushies()">Plushes</button></h2>
 <h2><button onclick="figures()">Figures</button></h2>
 <h2><button onclick="hoods()">Hoodies</button></h2>
+</div>
 <br>
+<div class="item-d">
 <p id="result0">Show up here</p>
 <p id="result1"></p>
 <p id="result2"></p>
 <p id="result3"></p>
+</div>
+<div class="item-e">
+<ul>
+    <li> Plushes are $5.00</li>
+    <li>Figures are $10.00</li>
+    <li>Hoods are $15.00</li>
+</ul>
+</div>
 </body>
 </html>

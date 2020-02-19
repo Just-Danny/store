@@ -2,7 +2,56 @@
     grid-template-rows: 20% 20% 10% 50%;
     grid-template-columns: 25% 25% 25% 25%;
     margin-top: 5%;
+    margin: 10%;
     display: grid;
     background-color: orange;
+    grid-gap: 5px;
+    text-decoration: none;
 }
 
+ul li{
+text-decoration: none;
+}
+p li{
+    text-decoration: none;
+}
+
+.item-a{
+    grid-row:1/1;
+    grid-column: 1/4;
+    text-align: center;
+}
+
+.item-b{
+    grid-row: 2/2;
+    grid-column: 1/4;
+    padding-left: 25%;
+}
+
+.item-c{
+    grid-row: 3/3;
+    grid-column: 1/2;
+}
+
+.item-d{
+    grid-row: 3/3;
+    grid-column:2/3;
+    text-align: center;
+    font-size: 40px;
+}
+
+.item-e{
+    grid-row: 3/3;
+    grid-column: 4/4;
+    font-size: 30px;
+}
+
+input{
+    width: 500px;
+}
+
+button{
+    width: 70px;
+    height: 30px;
+    border-radius: 2.5em;
+}
